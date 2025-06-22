@@ -9,7 +9,7 @@ Script Purpose:
 ===============================================================================
 */
 
-IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
+IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL  --U stands for table
     DROP TABLE silver.crm_cust_info;
 GO
 
