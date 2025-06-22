@@ -7,7 +7,7 @@ This script creates tables in the 'bronze' schema, dropping existing tables
 */
 
 
-IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL	--U stands for user
+IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL	--U stands for table
     DROP TABLE bronze.crm_cust_info;
 GO
 
